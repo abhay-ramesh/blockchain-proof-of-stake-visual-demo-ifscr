@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*! Icons.css v0.1.0 | MIT License | github.com/picturepan2/icons.css */
+.icon {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: inherit;
+  font-style: normal;
+  height: 1em;
+  position: relative;
+  text-indent: -9999px;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.icon::before,
+.icon::after {
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon.icon-2x {
+  font-size: 32px;
+}
+
+.icon.icon-3x {
+  font-size: 48px;
+}
+
+.icon.icon-4x {
+  font-size: 64px;
+}
+
+.icon-copy::before {
+  border: 0.1rem solid currentColor;
+  border-bottom-color: transparent;
+  border-radius: 0.1em;
+  border-right-color: transparent;
+  height: 0.8em;
+  left: 40%;
+  top: 40%;
+  width: 0.7em;
+}
+
+.icon-copy::after {
+  border: 0.1rem solid currentColor;
+  border-radius: 0.1em;
+  height: 0.8em;
+  left: 60%;
+  top: 60%;
+  width: 0.7em;
+}
